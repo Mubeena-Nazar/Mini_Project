@@ -1,0 +1,50 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Search_Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<br><br><br><br><center><h1>Phishing Detection</h1><br>
+		<input type="text" id="box1" placeholder="Search"  ><br><br>
+
+		<script type="text/javascript" src="link.js"></script>
+		<form action="" method="GET" target="_blank">
+				<input type="submit" name="s1" value="VirusTotal" onclick="len()">
+		</form>
+		
+	</center>
+</body>
+</html>
+
+
+------------------------------------------------------------------------------------
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Search_Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<br><br><br><br><center><h1>Phishing Detection New</h1><br>
+
+		<form action="" method="GET" target="_blank">
+		<input type="text" id="box1" placeholder="Search"  ><br><br>
+				<button id="my" >CLick me</button>
+				<script src="link.js" type="text/javascript" ></script>
+		</form>
+	</center>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------------
+function len()
+{
+var b1=document.getElementById("box1").value;
+var link="https://www.virustotal.com/gui/domain/"+b1;
+window.location.replace(link);
+}
