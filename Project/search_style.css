@@ -1,0 +1,15 @@
+body {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.822);
+    background-image: url("images/img_bg_3.jpg");
+    justify-content: center;
+}
+
+h3{ 
+    font-family: "Georgia";
+    font-size: 25px;
+    font-weight: bold;
+    color: #910202;
+    text-align:center;
+  }
